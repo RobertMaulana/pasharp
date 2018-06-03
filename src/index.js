@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import Docs from './docs/Docs'
-import '../node_modules/highlightjs/styles/obsidian.css'
+import '../node_modules/highlightjs/styles/hybrid.css'
 // import registerServiceWorker from './registerServiceWorker'
 
 ReactDOM.render(<Docs />, document.getElementById('root'))
