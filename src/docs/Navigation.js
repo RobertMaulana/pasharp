@@ -5,11 +5,13 @@ const Navigation = ({components}) => {
   return (
     <ul className='navigation'>
       {
-        components.map(name => {
+        components.map((name, index) => {
           return (
-            <li key={name}>
-              <a href={`#${name}`}>{name}</a>
-            </li>
+            <ul key={index}>
+              <li key={name}>
+                <a href={`#${name}`}>{name.match(/[A-Z][a-z]+|[0-9]+/g).join(' ')}</a>
+              </li>
+            </ul>
           )
         })
       }
