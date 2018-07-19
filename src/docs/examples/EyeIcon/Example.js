@@ -1,5 +1,5 @@
 import React from 'react'
-import EyeIcon from 'react-beauty/EyeIcon'
+import {EyeIcon} from 'pasharp'
 
 export default function EyeIconExample () {
   return <EyeIcon />

@@ -1,5 +1,5 @@
 import React from 'react'
-import Label from 'react-beauty/Label'
+import {Label} from 'pasharp'
 
 /** Optional label */
 export default function ExampleOption () {

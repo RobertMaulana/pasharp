@@ -1,5 +1,5 @@
 {
-  "name": "reusable_components",
+  "name": "pasharp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,6 +37,7 @@
     "react-dom": "^16.4.0",
     "resolve": "1.6.0",
     "style-loader": "0.19.0",
+    "styled-components": "^3.3.3",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.6.2",
     "webpack": "3.8.1",
@@ -97,9 +98,11 @@
   },
   "devDependencies": {
     "chokidar": "^1.6.1",
+    "enzyme": "^3.3.0",
     "highlightjs": "^9.10.0",
     "npm-run-all": "^4.0.2",
     "prop-types": "^15.6.1",
-    "react-docgen": "^2.14.0"
+    "react-docgen": "^2.14.0",
+    "react-test-renderer": "^16.4.1"
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import ProgressBar from 'react-beauty/ProgressBar'
+import {ProgressBar} from 'pasharp'
 
 /** 100% progress */
 export default function Example100Percent () {

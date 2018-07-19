@@ -28,7 +28,7 @@ class Example extends React.Component {
 
         <p>
           <a href='' onClick={this.toggleCode} style={{textDecoration: 'none'}}>
-            {showCode ? '</>' : '<>'}
+            {showCode ? 'Hide code' : 'Show code'}
           </a>
         </p>
 

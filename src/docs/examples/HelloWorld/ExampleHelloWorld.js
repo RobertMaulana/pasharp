@@ -1,5 +1,5 @@
 import React from 'react'
-import HelloWorld from 'react-beauty/HelloWorld'
+import {HelloWorld} from 'pasharp'
 
 /** Custom message */
 export default function ExampleHelloWorld () {

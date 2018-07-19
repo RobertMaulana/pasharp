@@ -54,6 +54,7 @@ table {
   width: 250px;
   list-style-type: none;
   padding: 0;
+  position: fixed;
 }
 
 .componentpage {
