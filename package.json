@@ -5,6 +5,7 @@
   "engines": {
     "node": ">=4.0.0"
   },
+  "license" : "MIT",
   "author": {
     "name": "Robert Maulana",
     "email": "maulana.robert.mr@gmail.com",
